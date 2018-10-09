@@ -13,6 +13,7 @@
 		B2409D612082C4D000E72F3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2409D602082C4D000E72F3B /* Assets.xcassets */; };
 		B2409D642082C4D000E72F3B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2409D622082C4D000E72F3B /* LaunchScreen.storyboard */; };
 		B2409D6F2082C4D000E72F3B /* lets_shareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2409D6E2082C4D000E72F3B /* lets_shareTests.swift */; };
+		B2409DBC20855FA500E72F3B /* gilsonbasicdata.png in Resources */ = {isa = PBXBuildFile; fileRef = B2409DBB20855FA500E72F3B /* gilsonbasicdata.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B2409D6A2082C4D000E72F3B /* lets shareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "lets shareTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2409D6E2082C4D000E72F3B /* lets_shareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lets_shareTests.swift; sourceTree = "<group>"; };
 		B2409D702082C4D000E72F3B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2409DBB20855FA500E72F3B /* gilsonbasicdata.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gilsonbasicdata.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				B2409D5B2082C4CD00E72F3B /* ViewController.swift */,
 				B2409D5D2082C4CD00E72F3B /* Main.storyboard */,
 				B2409D602082C4D000E72F3B /* Assets.xcassets */,
+				B2409DBB20855FA500E72F3B /* gilsonbasicdata.png */,
 				B2409D622082C4D000E72F3B /* LaunchScreen.storyboard */,
 				B2409D652082C4D000E72F3B /* Info.plist */,
 			);
@@ -179,6 +182,7 @@
 			files = (
 				B2409D642082C4D000E72F3B /* LaunchScreen.storyboard in Resources */,
 				B2409D612082C4D000E72F3B /* Assets.xcassets in Resources */,
+				B2409DBC20855FA500E72F3B /* gilsonbasicdata.png in Resources */,
 				B2409D5F2082C4CD00E72F3B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,6 +363,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUA68439K8;
 				INFOPLIST_FILE = "lets share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -376,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZUA68439K8;
 				INFOPLIST_FILE = "lets share/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
