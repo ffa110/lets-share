@@ -55,7 +55,7 @@ class ViewController: UIViewController {
     
     @IBAction func onImageTapped() {
         let str2 = String(32)
-        let testImage = textToImage(drawText: (("Highest Speed: " + str2 as NSString) as String) + "\nTest: " + str2 as NSString , inImage: UIImage(named:"gilsonbasicdata.png")!, atPoint: CGPoint(x: 360, y: 550))
+        let testImage = textToImage(drawText: (("Highest Speed: " + str2 as NSString) as String) + "\nTest: " + str2 as NSString , inImage: UIImage(named:"lets_share.png")!, atPoint: CGPoint(x: 360, y: 550))
         let activityController = UIActivityViewController(activityItems: ["test", testImage], applicationActivities: nil)
         present(activityController, animated: true, completion: nil )
     }
